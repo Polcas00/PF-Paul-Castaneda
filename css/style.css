@@ -19,7 +19,11 @@
   font-size: 29px;
   line-height: 40px;
   border-radius: 50%;
-  box-shadow: 0 0 5px #25d366;
+  box-shadow: 0 0 5px #25D366;
+}
+
+body {
+  background-color: #ccc;
 }
 
 /* Header */
@@ -27,6 +31,7 @@
   background-color: rgba(59, 148, 203, 0.802) !important;
   position: fixed;
   width: 100%;
+  z-index: 100;
 }
 
 .nav-total {
@@ -48,9 +53,8 @@
 .nav-link {
   color: #000;
 }
-
 .nav-link:hover {
-  color: #1b3366;
+  color: #1B3366;
   transform: scale(1.2);
   transition: 0.3s;
   text-shadow: 0 0 5px rgba(27, 51, 102, 0.337254902);
@@ -70,23 +74,21 @@
 }
 
 .jumbotron-prod {
-  background-image: url(../imgs/HEADER2-IMG.jpg);
+  background-image: url(../imgs/HEADER-PROD.jpg);
   background-position: center;
   background-size: cover;
-  height: 65vh;
+  height: 85vh;
   padding-top: 25px;
 }
 
 .call {
   margin-top: 60px;
 }
-
 .call h1 {
   color: orange;
   text-shadow: -2px -2px 5px #000;
   width: 60%;
 }
-
 .call p {
   width: 55%;
   text-shadow: -2px -2px 3px #000;
@@ -105,11 +107,9 @@
   box-shadow: 0 0 9px #000;
   padding-bottom: 20px;
 }
-
 .prom h4 {
   text-align: center;
 }
-
 .prom a {
   margin: auto 0;
 }
@@ -120,16 +120,13 @@ footer {
   font-size: 25px;
   padding: 15px;
 }
-
 footer a {
   text-decoration: none;
   font-size: 20px;
 }
-
 footer i:hover {
   color: orange;
 }
-
 footer div {
   display: inline-block;
 }
@@ -141,11 +138,7 @@ footer div {
 /* Contact inicio */
 .container-form {
   height: 90%;
-  background-image: linear-gradient(rgba(27, 51, 102, 0.843),
-      rgba(59, 148, 203, 0.843)),
-    url(../imgs/FONDO-BLANCO.png);
-  background-position: center;
-  background-size: cover;
+  background-image: linear-gradient(rgba(27, 51, 102, 0.843), rgba(59, 148, 203, 0.843));
   background-repeat: no-repeat;
   display: flex;
   align-items: center;
@@ -155,17 +148,16 @@ footer div {
 .card {
   margin: 0 auto;
   border: none;
-  background-color: rgba(0, 0, 0, 0.63);
+  background-color: rgba(204, 204, 204, 0.691);
   box-shadow: 0 0 5px #000;
 }
-
 .card h1 {
   text-transform: uppercase;
 }
 
 :is(input, textarea) {
   background-color: transparent;
-  color: #fff;
+  color: #000;
   font-size: 20px;
   width: 100%;
   padding: 3px 0;
@@ -175,13 +167,12 @@ footer div {
 
 input::placeholder,
 textarea::placeholder {
-  color: #fff;
+  color: #000;
 }
 
 /* Us Inicio */
 .sec-us {
-  background-image: linear-gradient(rgba(27, 51, 102, 0.843),
-      rgba(59, 148, 203, 0.843));
+  background-image: linear-gradient(rgba(27, 51, 102, 0.843), rgba(59, 148, 203, 0.843));
 }
 
 .card-us {
@@ -190,7 +181,7 @@ textarea::placeholder {
   border: 1px solid #000;
   border-radius: 6px;
   box-shadow: 0 0 8px #000;
-  background-image: linear-gradient(to bottom right, #fff, #bbb);
+  background-image: linear-gradient(to bottom right, #fff, #BBB);
 }
 
 article img {
@@ -207,13 +198,14 @@ article img {
 /* Login inicio */
 .sec-log {
   height: 85vh;
+  background-image: linear-gradient(rgba(27, 51, 102, 0.843), rgba(59, 148, 203, 0.843));
 }
 
 .card-log {
   width: 450px;
   background-color: #fff;
   text-align: center;
-  border: 4px inset #3b94cb;
+  border: 4px inset #3B94CB;
   border-radius: 5px;
   box-shadow: 0 0 5px #000;
 }
@@ -228,12 +220,10 @@ article img {
   flex-direction: column;
   justify-content: center;
 }
-
 .form-log label {
   margin-bottom: 6px;
   font-weight: bold;
 }
-
 .form-log input {
   width: 60%;
   margin: 0 auto;
@@ -250,7 +240,6 @@ article img {
   background: rgba(255, 166, 0, 0.558);
   font-weight: bold;
 }
-
 #submit-log:hover {
   background-color: #333;
   color: #fff;
