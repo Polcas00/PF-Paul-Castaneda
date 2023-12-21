@@ -24,6 +24,7 @@
 
 body {
   background-color: #ccc;
+  overflow-x: hidden;
 }
 
 /* Header */
@@ -71,6 +72,7 @@ body {
   background-position: center;
   background-size: cover;
   height: 85vh;
+  width: 100%;
 }
 
 .jumbotron-prod {
