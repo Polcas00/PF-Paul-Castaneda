@@ -7,10 +7,14 @@
 }
 
 .prom {
-    background-color: $color-blanco;
-    border: 3px solid $color-naranja;
-    box-shadow: 0 0 9px $color-negro;
-    padding-bottom: 20px;
+    
+    .container-cards {
+        background-color: $color-blanco;
+        border: 3px solid $color-naranja;
+        box-shadow: 0 0 9px $color-negro;
+        padding: 18px;
+        margin: 10px 5px;
+    }
 
     h4 {
         text-align: center;

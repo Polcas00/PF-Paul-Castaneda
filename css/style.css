@@ -110,11 +110,12 @@ body {
   margin-bottom: 0;
 }
 
-.prom {
+.prom .container-cards {
   background-color: #fff;
   border: 3px solid orange;
   box-shadow: 0 0 9px #000;
-  padding-bottom: 20px;
+  padding: 18px;
+  margin: 10px 5px;
 }
 .prom h4 {
   text-align: center;
@@ -262,6 +263,13 @@ article img {
   }
   footer {
     font-size: 20px;
+  }
+}
+/* Responsive */
+/* 0 hasta 830px */
+@media (max-width: 830px) {
+  .call p {
+    width: 80%;
   }
 }
 
