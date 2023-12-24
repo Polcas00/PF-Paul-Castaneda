@@ -1,7 +1,6 @@
 /* Login inicio */
 
 .sec-log {
-    height: 85vh;
     background-image: linear-gradient(rgba(27, 51, 102, 0.843), rgba(59, 148, 203, 0.843));
 }
 
@@ -12,11 +11,6 @@
     border: 4px inset #3B94CB;
     border-radius: 5px;
     box-shadow: 0 0 5px $color-negro;
-}
-
-.card-img-log {
-    background-size: cover;
-    background-position: center;
 }
 
 .form-log {

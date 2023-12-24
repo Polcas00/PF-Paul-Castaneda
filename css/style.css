@@ -1,15 +1,16 @@
-@charset "UTF-8";
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 
-html, body {
+html,
+body {
   overflow-x: hidden;
   max-width: 100%;
+  width: 100%;
   margin: 0;
-  box-sizing:  border-box;
+  box-sizing: border-box;
 }
 
 .wsp {
@@ -207,7 +208,6 @@ article img {
 
 /* Login inicio */
 .sec-log {
-  height: 85vh;
   background-image: linear-gradient(rgba(27, 51, 102, 0.843), rgba(59, 148, 203, 0.843));
 }
 
@@ -218,11 +218,6 @@ article img {
   border: 4px inset #3B94CB;
   border-radius: 5px;
   box-shadow: 0 0 5px #000;
-}
-
-.card-img-log {
-  background-size: cover;
-  background-position: center;
 }
 
 .form-log {

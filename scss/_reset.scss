@@ -4,11 +4,13 @@
     box-sizing: border-box;
 }
 
-html, body { 
+html,
+body {
     overflow-x: hidden;
     max-width: 100%;
+    width: 100%;
     margin: 0;
-    box-sizing: border-box;
+    box-sizing: border-box;
 }
 
 .wsp {
